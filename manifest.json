@@ -2,8 +2,8 @@
     "manifest_version": 2,
   
     "name": "UNfkConnect",
-    "description": "This extension attempts to fix Connect Carolina",
-    "version": "0.0.0.1",
+    "description": "Fix Connect Carolina login errors",
+    "version": "0.0.0.2",
 
     "page_action": {
         "default_popup": "popup.html",
@@ -17,7 +17,7 @@
         "16": "icon16bw.png",
         "32": "icon32bw.png",
         "48": "icon48.png",
-       "128": "icon128bw.png" },
+       "128": "icon128.png" },
        
     "background": {
         "scripts": ["background.js"],
@@ -32,7 +32,6 @@
        ],  
     "permissions": [
         "browsingData",
-        "https://ajax.googleapis.com/",
         "declarativeContent"
      ]
   }
